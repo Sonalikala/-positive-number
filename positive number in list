@@ -1,0 +1,11 @@
+list=[]
+num=int(input("enter the number of element you want to print from list: "))
+for i in range(num):
+  sum=int(input("enter element: "))
+  list.append(sum)
+list1=[]
+for i in list:
+  if i>0:
+    list1.append(i)
+print(list1)
+  
